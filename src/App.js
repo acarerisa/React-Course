@@ -11,17 +11,15 @@ import BindEtme from './Components/BindEtme';
 import Parent from './Components/Parent';
 import KosulluRender from './Components/KosulluRender';
 import KitapListesi from './Components/KitapListesi';
-
-
-
-
-
-
+import Stil from './Components/Stil';
+import Inline from './Components/Inline';
 
 function App() {
   return (
     <div className="App">
-      <KitapListesi/>
+      <Inline/>
+      {/* <Stil/> */}
+      {/* <KitapListesi/> */}
       {/* <KosulluRender/> */}
       {/* <Parent/> */}
       {/* <BindEtme/> */}
