@@ -7,22 +7,23 @@ import Tema from './Components/Tema'
 import Sayac from './Components/Sayac';
 import FunctionalEventHandling from './Components/FunctionalEventHandling';
 import ClassEventHandlin from './Components/ClassEventHandlin';
-import BindEtme from './Components/BindEtme';
 import Parent from './Components/Parent';
 import KosulluRender from './Components/KosulluRender';
 import KitapListesi from './Components/KitapListesi';
 import Stil from './Components/Stil';
 import Inline from './Components/Inline';
+import BindEtme from './Components/BindEtme';
 
 function App() {
   return (
     <div className="App">
-      <Inline/>
+      <BindEtme/>
+      {/* <Inline/> */}
       {/* <Stil/> */}
       {/* <KitapListesi/> */}
       {/* <KosulluRender/> */}
       {/* <Parent/> */}
-      {/* <BindEtme/> */}
+      
       {/* <FunctionalEventHandling/>
       <ClassEventHandlin/> */}
       
