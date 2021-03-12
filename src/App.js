@@ -14,6 +14,7 @@ import Stil from './Components/Stil';
 import Inline from './Components/Inline';
 import BindEtme from './Components/BindEtme';
 import BasitForm from './Components/BasitForm';
+import GetPost from './Components/GetPost';
 
 
 
@@ -22,6 +23,7 @@ import BasitForm from './Components/BasitForm';
 function App() {
   return (
     <div className="App">
+    {/* <GetPost/>  */}
     {/* <BasitForm/>  */}
       {/* <BindEtme/> */}
       {/* <Inline/> */}
