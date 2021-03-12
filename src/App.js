@@ -13,11 +13,17 @@ import KitapListesi from './Components/KitapListesi';
 import Stil from './Components/Stil';
 import Inline from './Components/Inline';
 import BindEtme from './Components/BindEtme';
+import BasitForm from './Components/BasitForm';
+
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <BindEtme/>
+    {/* <BasitForm/>  */}
+      {/* <BindEtme/> */}
       {/* <Inline/> */}
       {/* <Stil/> */}
       {/* <KitapListesi/> */}
